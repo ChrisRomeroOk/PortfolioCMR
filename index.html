@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -121,7 +122,7 @@
     </div>
   </section>
 
-  <!-- Proyectos -->
+  <!-- Seccion Proyectos -->
   <section class="proyectos-recientes seccion-clara d-flex flex-column">
     <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
     <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
@@ -240,7 +241,57 @@
     </a>
   </section>
 
+  <!-- Seccion Testimonios -->
+  <section class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos comentarios de mis clientes y colegas...</h3>
+    
+    <!-- Carrousel -->
+    <div id="testimonios-carousel" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-img rounded-circle" src="img/cliente1.svg" alt="foto de Gino">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere veritatis culpa dolor, reprehenderit eos tenetur eius sequi earum laboriosam beatae, inventore saepe optio, fugiat unde reiciendis consequuntur voluptatem ducimus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Gino</p>
+              <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-img rounded-circle" src="img/cliente2.svg" alt="foto de Nora">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere veritatis culpa dolor, reprehenderit eos tenetur eius sequi earum laboriosam beatae, inventore saepe optio, fugiat unde reiciendis consequuntur voluptatem ducimus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Nora</p>
+              <p class="cargo">Gerente de Diseño Grafico de FreeCodeCamp</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-img rounded-circle" src="img/cliente3.svg" alt="foto de Leonardo">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere veritatis culpa dolor, reprehenderit eos tenetur eius sequi earum laboriosam beatae, inventore saepe optio, fugiat unde reiciendis consequuntur voluptatem ducimus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Leonardo</p>
+              <p class="cargo">Team Leader en ISSD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
 
+
+  </section>
 
     <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
